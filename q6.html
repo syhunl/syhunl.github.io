@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>애니메이션 추천사이트 세번째 문제</title>
+    <link rel="stylesheet" href="q1.css">
+    <script>
+        function move(){
+            localStorage.setItem("arrive", './ghoul.html');
+            location.href='./wait.html'
+        }
+    </script>
+</head>
+<body>
+    <div style="display: flex; justify-content: center">
+        <div>세번째 문제!</div>
+    </div>
+    <div style="display: flex; justify-content: center">
+        <div>호러를 좋아하시나요, 소년만화를 좋아하시나요?</div>
+        <div style="display: flex; justify-content: center">🔪💥</div>
+    </div>
+    <div style="height: 100vh; display: flex; justify-content: center; align-items: center">
+        <div><button onclick=move()>호러</button></div>
+        <div>      </div>
+        <div><button class="pr-1" onclick="location.href='./q7.html'">소년만화</button></div>
+    </div>
+
+</body>
+</html>

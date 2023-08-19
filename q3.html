@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>애니메이션 추천사이트 두번째 문제</title>
+    <link rel="stylesheet" href="q1.css">
+    <script>
+        function kaguya(){
+            localStorage.setItem("arrive", './kaguya.html');
+            location.href='./wait.html'
+        }
+        function cute(){
+            localStorage.setItem("arrive",'./cute.html')
+            location.href='./wait.html'
+        }
+    </script>
+</head>
+<body>
+    <div style="display: flex; justify-content: center">
+        <div>두번째 문제!</div>
+    </div>
+    <div style="display: flex; justify-content: center">
+        <div>순수 연애를 좋아하시나요, 밀당을 좋아하시나요?</div>
+        <div style="display: flex; justify-content: center">🎀</div>
+    </div>
+    <div style="height: 100vh; display: flex; justify-content: center; align-items: center">
+        <div><button onclick=cute()>순수 연애</button></div>
+        <div>      </div>
+        <div><button class="pr-1" onclick=kaguya()>밀당</button></div>
+    </div>
+
+</body>
+</html>

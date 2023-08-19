@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="manifest" href="./manifest.json">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>애니메이션 추천 사이트</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Jua', sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="project.css">
+    
+</head>
+<body style="height: 100vh; display: flex; justify-content: center; align-items:center">
+    <script>
+        <!-- 서비스 워커 등록하는 코드 -->
+        if ('serviceWorker' in navigator){
+            navigator.serviceWorker.register("./service_worker.js").then(function (){
+                console.log("서비스 워커가 등록됨")
+            })
+        }
+    </script>
+    <table>
+        <tr>
+            <td><img src="https://s3.ap-southeast-1.amazonaws.com/we-xpats.com/uploads/article/en_r_196_1.png" style="width: 300px;height: 150px"></td>
+            <td><img src= "https://image.tving.com/upload/cms/caip/CAIP0400/P001336142.png/dims/resize/1280" style="width: 300px;height: 150px"></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="text_table">
+                <div>
+                    <span>안녕하세요ヾ(≧▽≦*)o</span>
+                </div>
+                <div>여기는 애니메이션을 추천하는 사이트입니다!</div>
+                <div><span>지금부터 퀴즈를 통해 당신과 맞는 애니메이션을 추천해드리겠습니다.</span></div>
+                    
+                    <span>시작하시려면 아래 Start 버튼을 눌러주세요.</span>
+                <div>(❁´◡`❁)</div>
+            </td>
+            
+        </tr>
+        <tr>
+            <td><img src="https://www.animaxtv.co.kr/sites/animaxtv.co.kr/files/styles/image_1170x658/public/ct_series_f_primary_image/program_image_kaguya_sama_season2.jpg?itok=brmy3Gu9" style="width: 300px;height:150px "></td>
+            <td><img src="https://ccdn.lezhin.com/v2/comics/4953649970479104/images/wide.jpg?updated=1659405022182&width=632" style="width: 300px;height:150px"></td>
+        </tr>
+        <tr>
+            <td colspan="2"><div class="e-3"><button type="button" onclick="location.href='./q1.html'">시작</button></div></td>
+        </tr>
+    </table>
+    
+</body>
+</html>

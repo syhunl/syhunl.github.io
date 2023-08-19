@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
+      td {
+        width: 33vw;
+      }
+    </style>
+  </head>
+  <body style="width: 100vw; height: 110vh;">
+    <div style="margin-top: 50px ;display: flex; justify-content: center; align-items: center; height: 100vh;">
+    <table>
+      <tr style="text-align: center">
+        <td colspan="2" style="padding-top: 30px;"><h1>나루토</h1></td>
+      </tr>
+      <tr>
+        <td>
+          <!-- carouse -->
+          <div style="padding-top: 30px; padding-left: 30px; padding-right: 30px;">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="https://mblogthumb-phinf.pstatic.net/MjAyMzAxMjFfMjgg/MDAxNjc0MjMxNDI3NTg5.wWoKMbsb9lOFaYwm-0ATw5m9aDVi5Ta9CPoUTc0AOqMg.YaWES_0sb3MEvpjC63NLSjH_WoZfEjmPBoIfXjPMnaUg.PNG.mshmsh111/wall-stickers-for-kids-naruto-with-the-scroll.png?type=w800" />
+                </div>
+                <div class="carousel-item">
+                  <img src="https://ccdn.lezhin.com/v2/comics/6235299150888960/images/tall.jpg?updated=1667354025185&width=840" class="d-block w-100" alt="img2" />
+                </div>
+                <div class="carousel-item">
+                  <img src="https://t1.daumcdn.net/cfile/tistory/253FC04D58DF663026" class="d-block w-100" alt="img3" />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </td>
+        <td style="padding: 50px;">
+          <!-- 애니 설명 -->
+          나루토는 마을에서 기피당하는 소년으로, 마을의 모두가 그를 '괴물'이라고 불렀습니다. 그런 그가 닌자학교를 졸업하고 최고의 닌자가 되겠다는 꿈을 가지고 동료들과 수많은 임무를 해결하고, 혈통을 알아가고, 능력을 키우며 적을 물리치는 내용의 만화입니다.
+      </tr>
+      <tr>
+        <td colspan="2" style="text-align: center; padding-top: 30px;">
+          <!— 다시 추천받는 버튼 —>
+          <button type="button" class="btn btn-outline-success" onclick="location.href='project.html'">다시 추천 받기</button>
+        </td>
+      </tr>
+    </table>
+  </div>
+  </body>
+</html>
